@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(216, 213, 201);
+}
+
+#EXP {
+    background: linear-gradient(90deg, #d6e239 0%, #e3e5c9 100%);
+    text-align: center;
+    border: 3px solid rgb(111, 111, 111);
+}
+
+#ENS {
+    background: linear-gradient(90deg, #e3e5c9 0%, #d0d66e 100%);
+        text-align: center;
+        border: 3px solid rgb(111, 111, 111);
+}
+
+#INFOS {
+    background: linear-gradient(90deg, #e3e5c9 0%, #d0d66e 100%);
+        text-align: center;
+        border: 3px solid rgb(111, 111, 111);
+}
+/* img { 
+    border: 3px solid rgb(111, 111, 111);
+    border-radius: 50%;
+    max-width: 100%:;
+} */
+
+@media screen and (min-width: 800px) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
+  @media screen and (min-width: 800px) {
+    #INFOS {
+      margin: 1em 2em;
+    }
+  }
