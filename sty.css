@@ -27,7 +27,7 @@
     max-width: 100%:;
 } */
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 650px) {
     * {
       margin: 1em 2em;
     }
