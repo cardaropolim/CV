@@ -3,19 +3,32 @@
     justify-content: center;
     flex-wrap: wrap;
     background-color: rgb(216, 213, 201);
+
 }
 
 #EXP {
-    background: linear-gradient(90deg, #d0d66e 0%, #e3e5c9 100%);
+    background-image: linear-gradient( #d0d66e 0%, #e3e5c9 100%);
     text-align: center;
     border: 3px solid rgb(111, 111, 111);
+    width: 100%;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+
 }
 
 #INFOS {
-    background: linear-gradient(90deg, #e3e5c9 0%, #d0d66e 100%);
+    background: linear-gradient( #e3e5c9 0%, #d0d66e 100%);
         text-align: center;
         border: 3px solid rgb(111, 111, 111);
+        width: 100%;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
 }
+
 img { 
     border: 3px solid rgb(111, 111, 111);
     border-radius: 50%;
