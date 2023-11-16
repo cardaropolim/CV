@@ -6,20 +6,8 @@
 
 }
 
-#EXP {
-    background-image: linear-gradient( #d0d66e 0%, #e3e5c9 100%);
-    text-align: center;
-    border: 3px solid rgb(111, 111, 111);
-    width: 100%;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
-
-
-}
-
 #INFOS {
-    background: linear-gradient( #e3e5c9 0%, #d0d66e 100%);
+    background: linear-gradient( #6ec6d6 0%, #a5c5cd 100%);
         text-align: center;
         border: 3px solid rgb(111, 111, 111);
         width: 100%;
@@ -27,12 +15,31 @@
         margin-top: 50px;
         margin-left: 50px;
         margin-right: 50px;
+        font-weight: 5à0;
 }
 
-img { 
+#EXP {
+    background-image: linear-gradient( #a5c5cd 0%, #6ec6d6 100%);
+    text-align: center;
+    border: 3px solid rgb(111, 111, 111);
+    width: 100%;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 500;
+
+
+}
+
+
+#photo { 
     border: 3px solid rgb(111, 111, 111);
     border-radius: 50%;
     max-width: 100%;
+}
+
+#tableau {
+    border-radius: 2rem;
 }
 
 @media screen and (min-width: 800px) {
